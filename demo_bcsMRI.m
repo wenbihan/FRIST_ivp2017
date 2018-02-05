@@ -29,5 +29,5 @@ paramsin.s  =   increasingArray(startValue, endValue, numFRIST - 45);
 paramsin.s  =   [paramsin.s endValue * ones(1, 45)];
 [Xr, outputParam] = ...
     FRIST_MRI(I1, Q1, paramsin, FRISTparam);
-imshow(Xr, []);
+% imshow(Xr, []);
 
